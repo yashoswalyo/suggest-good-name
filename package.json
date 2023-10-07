@@ -1,0 +1,23 @@
+{
+  "name": "suggest-good-name",
+  "version": "1.0.0",
+  "description": "I'll add it later ...",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "concurrently \"cd packages/backend && yarn run dev\" \"cd packages/app && yarn start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yash Oswal <yashoswal18@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "https://github.com/yashoswalyo/suggest-good-name.git",
+  "packageManager": "yarn@3.6.4",
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1"
+  }
+}
